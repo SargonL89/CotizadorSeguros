@@ -10,32 +10,35 @@
     <link rel="stylesheet" href="style.css">
     <title>Workshop JS</title>
 </head>
-<body class="background">
-    <header class="center">
+<body>
+    <header>
         <h1>
             Seguros para el Hogar
         </h1>
         <img src="imagenes/Triangulo azul.jpg" alt="Seguros Hogar">
     </header>
     <div class="div-cotizador">
-        <h2>Completa los datos solicitados</h2>
-        <label for="propiedad">Selecciona el tipo de propiedad:</label>
-        <select id="propiedad">
-            <option selected disabled>...</option>
+        <h2>Calcula el precio de tu seguro</h2>
+        <div>
+            <label for="propiedad">Selecciona el tipo de propiedad:</label>
+            <select id="propiedad"><option selected disabled>...</option></select>
             <!-- <option value="1.09">Casa</option> -->
-        </select>
-        <label for="metros2">Selecciona su ubicación:</label>
-        <select id="ubicacion">
-            <option selected disabled>...</option>
+        </div>
+        <div>
+            <label for="metros2">Selecciona su ubicación:</label>
+            <select id="ubicacion"><option selected disabled>...</option></select>
             <!-- <option value="1.03">Tandil</option> -->
-        </select>
-        <label for="metros2">Ingresa los metros cuadrados:</label>
-        <input type="number" id="metros2" value="20" min="20" max="500">
+        </div>
+        <div>
+            <label for="metros2">Ingresa los metros cuadrados:</label>
+            <input type="number" id="metros2" value="20" min="20" max="500">
+        </div>
         <div class="button button-outline">
             <button>Cotizar</button>
         </div>
         <div>
-            <p class="importe">Precio estimado: $ <span>0.00 </span><button class="guardar ocultar" title="Enviar por Email "> Email</button></p>
+            <p class="importe">Precio estimado: $ <span>0.00</span></p>
+            <button class="guardar ocultar" title="Enviar por Email ">Email</button>
         </div>
     </div>
 </body>

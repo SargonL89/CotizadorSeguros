@@ -33,7 +33,6 @@ const realizarCotizacion= ()=> {
 }
 
 const enviarPorEmail= ()=> {
-    debugger
     const cotizacion= {
         fechaCotizacion: new Date().toLocaleString(),
         propiedad: propiedad[propiedad.selectedIndex].text,
