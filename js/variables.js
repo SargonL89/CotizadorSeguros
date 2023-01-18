@@ -12,7 +12,9 @@ const datosPropiedad= [
     {tipo: 'Casa', factor: 1.11},
     {tipo: 'P.H.', factor: 1.05},
     {tipo: 'Departamento', factor: 1.02},
-    {tipo: 'Barrio privado', factor: 1.19}
+    {tipo: 'Barrio privado', factor: 1.19},
+    {tipo: 'Oficina', factor: 0.9},
+    {tipo: 'Local comercial', factor: 1.24},
 ]
 
 const datosUbicacion= [
